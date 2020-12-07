@@ -6,8 +6,9 @@ import CountDown from "./CountDown";
 function App() {
   return (
     <div className="App">
-     <CountDown/>
-     <Counter/> 
+      <h1>Two CountDown Component</h1>
+      <Counter/> 
+      <CountDown/>
     </div>
   );
 }

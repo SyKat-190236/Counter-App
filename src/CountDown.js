@@ -29,11 +29,13 @@ function CountDown(){
         setFlag(true)
     };
     return(
-        <div>
+        <div className="cntdwn">
+            <h1>Days CountDown</h1>
+            How many days left:
             <input type="text" value={display} onChange={setValue}/>
-            <button onClick={finalValue}>Done</button><br/>
+            <button onClick={finalValue}>Done</button><br/><br/>
             <button onClick={decrement}>Countdown</button>
-            <h1>{limit}</h1>
+            <h2>{limit} Days Left</h2>
         </div>
     );
 }
